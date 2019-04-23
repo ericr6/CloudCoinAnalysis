@@ -19,9 +19,7 @@ The code is derivated from:
 * https://github.com/JesseVent/crypto for the building dataset
 
 
-
 An application to analyse cryto tokens using datasets corresponding to the more.
-
 
 Building datasets:
 

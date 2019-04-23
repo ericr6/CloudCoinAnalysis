@@ -19,7 +19,5 @@ RUN pip install statsmodels seaborn plotly ipython psutil
 COPY ./cloudcoin.py /
 COPY ./entrypoint.sh /
 RUN chmod +x /entrypoint.sh
-RUN mkdir /iexec_in
-RUN wget https://raw.githubusercontent.com/ericr6/CloudCoinAnalysis/master/dataset/cloudcoin_2019-04-18.csv -O /iexec_in/dataset.csv
 
 ENTRYPOINT ["/entrypoint.sh"]
